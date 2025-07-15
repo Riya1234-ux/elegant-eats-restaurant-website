@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Eats - Fine Dining Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Elegant Eats</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Experience Exquisite Fine Dining</h2>
+            <p>Savor the finest culinary creations in an atmosphere of luxury and sophistication</p>
+            <a href="#reservation" class="cta-button">Reserve Your Table</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Elegant Eats</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>At Elegant Eats, we believe dining is an art form. Our master chefs craft each dish with precision, using only the finest ingredients sourced from local farms and international markets.</p>
+                    <p>Since our establishment in 2010, we have been dedicated to providing an unparalleled dining experience that combines innovative cuisine with impeccable service in an atmosphere of refined elegance.</p>
+                    <p>Every meal at Elegant Eats is a journey through flavors, textures, and aromas that will create memories to last a lifetime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="container">
+            <h2>Our Signature Menu</h2>
+            <div class="menu-container">
+                <div class="menu-item">
+                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg" alt="Grilled Salmon with Herbs">
+                    <div class="menu-content">
+                        <h3>Herb-Crusted Salmon</h3>
+                        <p>Fresh Atlantic salmon with a delicate herb crust, served with seasonal vegetables and lemon butter sauce</p>
+                        <span class="price">$42</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg" alt="Beef Tenderloin">
+                    <div class="menu-content">
+                        <h3>Prime Beef Tenderloin</h3>
+                        <p>Perfectly aged beef tenderloin with truffle reduction, roasted potatoes, and market vegetables</p>
+                        <span class="price">$58</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg" alt="Lobster Risotto">
+                    <div class="menu-content">
+                        <h3>Lobster Risotto</h3>
+                        <p>Creamy arborio rice with fresh lobster, white wine, and parmesan, finished with microgreens</p>
+                        <span class="price">$48</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" alt="Duck Confit">
+                    <div class="menu-content">
+                        <h3>Duck Confit</h3>
+                        <p>Traditional French duck confit with cherry gastrique, wild rice, and seasonal root vegetables</p>
+                        <span class="price">$45</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg" alt="Chocolate Soufflé">
+                    <div class="menu-content">
+                        <h3>Dark Chocolate Soufflé</h3>
+                        <p>Rich Belgian chocolate soufflé with vanilla bean ice cream and raspberry coulis</p>
+                        <span class="price">$16</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.pexels.com/photos/1126728/pexels-photo-1126728.jpeg" alt="Wine Selection">
+                    <div class="menu-content">
+                        <h3>Sommelier's Selection</h3>
+                        <p>Curated wine pairings from our extensive cellar, featuring both classic and boutique vintages</p>
+                        <span class="price">$25-85</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservation">
+        <div class="container">
+            <h2>Reserve Your Table</h2>
+            <div class="reservation-content">
+                <div class="reservation-info">
+                    <h3>Dining Hours</h3>
+                    <p><strong>Lunch:</strong> Tuesday - Sunday, 12:00 PM - 3:00 PM</p>
+                    <p><strong>Dinner:</strong> Tuesday - Sunday, 6:00 PM - 10:00 PM</p>
+                    <p><strong>Closed:</strong> Mondays</p>
+                    <p class="note">Reservations are highly recommended. Please call for parties of 8 or more.</p>
+                </div>
+                <form class="reservation-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Reservation Date</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Preferred Time</label>
+                            <input type="time" id="time" name="time" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="people">Number of Guests</label>
+                        <select id="people" name="people" required>
+                            <option value="">Select number of guests</option>
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guests</option>
+                            <option value="3">3 Guests</option>
+                            <option value="4">4 Guests</option>
+                            <option value="5">5 Guests</option>
+                            <option value="6">6 Guests</option>
+                            <option value="7">7 Guests</option>
+                            <option value="8+">8+ Guests</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="special">Special Requests (Optional)</label>
+                        <textarea id="special" name="special" rows="3" placeholder="Dietary restrictions, special occasions, etc."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Confirm Reservation</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Location</h3>
+                        <p>123 Culinary Boulevard<br>
+                        Gourmet District<br>
+                        New York, NY 10001</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <p>(212) 555-EATS<br>
+                        (212) 555-3287</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p>reservations@eleganteats.com<br>
+                        info@eleganteats.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Private Events</h3>
+                        <p>events@eleganteats.com<br>
+                        (212) 555-EVENT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Elegant Eats</h3>
+                    <p>Where culinary artistry meets exceptional service</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#reservation">Reservations</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <p>Stay connected for special events and seasonal menus</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Elegant Eats. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
